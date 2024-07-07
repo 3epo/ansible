@@ -1,0 +1,10 @@
+- name: Install Applications
+  hosts: all
+  become: yes
+
+  tasks: 
+
+  - name: Install MC
+    apt:
+      pkg: mc
+      state: present

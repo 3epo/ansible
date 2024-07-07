@@ -1,0 +1,5 @@
+[zabbix_servers]
+zabbix
+
+[anything:children]
+zabbix_servers
